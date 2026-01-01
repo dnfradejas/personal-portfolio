@@ -1,39 +1,57 @@
-# personal-portfolio
+# Dayne Fradejas - Personal Portfolio
 
-## How to Publish on GitHub Pages
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen)](https://dnfradejas.github.io/personal-portfolio/)
 
-1. **Move your site files to the root or a `docs` folder**
-   - For user/organization pages, place `index.html` and all assets in the root of the repository.
-   - For project pages, place everything in a `docs` folder and set GitHub Pages source to `docs` in repository settings.
+## 👋 About Me
 
-2. **Update all links to use relative paths**
-   - Use paths like `./projects.html` or `./docs/projects.html` for navigation.
-   - Avoid using `/` at the start of links, as this will break on GitHub Pages.
+Python & AI Developer specializing in building intelligent, data-driven solutions. From model development to deployment, I turn complex problems into practical, real-world applications.
 
-3. **Configure GitHub Pages**
-   - Go to your repository's Settings > Pages.
-   - Set the source to the root or `docs` folder.
-   - Save and wait for the site to deploy.
+## 🎓 Education
 
-4. **HTTPS is automatic**
-   - GitHub Pages will serve your site over HTTPS by default. No extra configuration is needed.
+- **University of the Philippines Diliman** - Masters of Engineering in Artificial Intelligence (2024)
+- **Mapúa University** - Bachelor of Science in Computer Engineering (2021)
 
-5. **Example folder structure for `docs`**
-   ```
-   docs/
-     index.html
-     projects.html
-     research.html
-     public/
-       css/
-       js/
-       components/
-   ```
+## 🏆 Certifications
 
-## Troubleshooting
+- Microsoft Certified: Azure Data Fundamentals (2021)
+- Career Service Professional Eligible (2018)
 
-- If you see broken links or missing assets, check your relative paths.
-- If you see a "Not Found" error, make sure your files are in the correct folder and the source is set properly in GitHub Pages settings.
+## 📚 Published Research
+
+1. **Detection of Facial Cues in Digital Images using Computer Vision** - [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3535694.3535706)
+2. **G6PD Detection using myRIO Microcontroller and Color Sensor System** - [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3620679.3620702)
+3. **IBON: Image-based Ornithological Identification Mobile Application** - [AIP Conference](https://doi.org/10.1063/5.0235284)
+4. **Enhancing Haar Cascade Algorithm for Robust Detection of Facial Features** - [MDPI](https://doi.org/10.3390/engproc2025107003)
+
+## 🚀 Featured Projects
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| **Maroon Chat** | NLP-powered chatbot for UP Diliman | LLaMA, PEFT, DPO, Gradio |
+| **Colonoscopy Polyp Detection** | 🏆 Award-winning medical imaging AI | YOLOv8, Deep Learning |
+| **Provincial Electric Load Forecasting** | 20% accuracy improvement over traditional methods | Deep Learning, Time Series |
+
+## 💼 Development Highlights
+
+- Heart Disease Detection using Bagging-SVM
+- Dissolved Gas Analysis (DGA) for Transformer Health Prediction
+- FDCC Dash Web Application (PostgreSQL, Python Dash)
+- Road Pothole Detection System (YOLOv8)
+
+## 🛠️ Tech Stack
+
+- **Languages:** Python, C#
+- **AI/ML:** PyTorch, Scikit-learn, Transformers, Hugging Face, YOLO, MediaPipe
+- **Web:** Streamlit, Dash, Gradio, HTML/CSS
+- **Database:** PostgreSQL
+- **Deployment:** Unix
+
+## 📫 Contact
+
+- **Email:** [daynefradejas@gmail.com](mailto:daynefradejas@gmail.com)
+- **LinkedIn:** [linkedin.com/in/dayne-fradejas](https://www.linkedin.com/in/dayne-fradejas/)
+- **GitHub:** [github.com/dnfradejas](https://github.com/dnfradejas)
 
 ---
-This portfolio is ready for deployment on GitHub Pages. For more help, see [GitHub Pages documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+
+*Built with HTML, CSS, Bootstrap 5, and hosted on GitHub Pages.*
