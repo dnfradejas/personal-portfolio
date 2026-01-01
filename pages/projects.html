@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a href="research.html" class="nav-link">Research</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="education.html" class="nav-link">Education</a>
+                    </li>
                 </ul>
             </div>
             
@@ -65,37 +68,155 @@
     </nav>
 
     <main>
-        <section id="projects" class="section">
+        <section id="projects" class="section projects-section">
             <div class="projects-container">
-                <h1>My Projects</h1>
-                <p class="projects-description">Here you can explore my portfolio of projects, showcasing my skills in Python, AI/ML, and web development.</p>
-                
-                <!-- Projects will be added here -->
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <h3>Project 1</h3>
-                        <p>Description of your first project. This could be an AI/ML project or web application.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+                <h1>Portfolio</h1>
+                <p class="projects-description">Showcasing my development journey through key highlights and featured projects in Python, AI/ML, and software development.</p>
+
+                <!-- Development Highlights Section -->
+                <div class="highlights-subsection">
+                    <h2>Development Highlights</h2>
+                    <div class="highlights-timeline">
+                        <!-- Heart Disease Detection -->
+                        <div class="highlight-item">
+                            <div class="highlight-date">
+                                <span class="highlight-year">ML</span>
+                            </div>
+                            <div class="highlight-content">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-heart-pulse-fill"></i>
+                                </div>
+                                <div class="highlight-details">
+                                    <h3>Heart Disease Detection using Bagging-SVM</h3>
+                                    <p>Implemented anomaly detection techniques with Bagging-Support Vector Machine (SVM) to improve accuracy in early heart disease prediction.</p>
+                                    <div class="highlight-tags">
+                                        <span class="highlight-tag">Machine Learning</span>
+                                        <span class="highlight-tag">SVM</span>
+                                        <span class="highlight-tag">Healthcare</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- DGA Transformer Health -->
+                        <div class="highlight-item">
+                            <div class="highlight-date">
+                                <span class="highlight-year">ML</span>
+                            </div>
+                            <div class="highlight-content">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-lightning-charge-fill"></i>
+                                </div>
+                                <div class="highlight-details">
+                                    <h3>Dissolved Gas Analysis (DGA) for Transformer Health Prediction</h3>
+                                    <p>Designed a machine learning model for predicting transformer health, optimizing maintenance and fault detection strategies, with a Streamlit UI for result visualization.</p>
+                                    <div class="highlight-tags">
+                                        <span class="highlight-tag">Predictive Maintenance</span>
+                                        <span class="highlight-tag">Streamlit</span>
+                                        <span class="highlight-tag">Energy</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FDCC Dash Web Application -->
+                        <div class="highlight-item">
+                            <div class="highlight-date">
+                                <span class="highlight-year">Web</span>
+                            </div>
+                            <div class="highlight-content">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-speedometer2"></i>
+                                </div>
+                                <div class="highlight-details">
+                                    <h3>FDCC Dash Web Application</h3>
+                                    <p>Developed a real-time dashboard using PostgreSQL (database), Python Dash (backend), and Dash Bootstrap (UI) for efficient data visualization and monitoring.</p>
+                                    <div class="highlight-tags">
+                                        <span class="highlight-tag">Python Dash</span>
+                                        <span class="highlight-tag">PostgreSQL</span>
+                                        <span class="highlight-tag">Dashboard</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Road Pothole Detection -->
+                        <div class="highlight-item">
+                            <div class="highlight-date">
+                                <span class="highlight-year">CV</span>
+                            </div>
+                            <div class="highlight-content">
+                                <div class="highlight-icon">
+                                    <i class="bi bi-camera-video-fill"></i>
+                                </div>
+                                <div class="highlight-details">
+                                    <h3>Road Pothole Detection System</h3>
+                                    <p>Built a computer vision-based pothole detection system using YOLOv8, improving road maintenance efficiency.</p>
+                                    <div class="highlight-tags">
+                                        <span class="highlight-tag">Computer Vision</span>
+                                        <span class="highlight-tag">YOLOv8</span>
+                                        <span class="highlight-tag">Object Detection</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
-                    <div class="project-card">
-                        <h3>Project 2</h3>
-                        <p>Description of your second project. This could be another Python application or data science project.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+                </div>
+
+                <!-- Featured Projects Section -->
+                <div class="projects-subsection">
+                    <h2>Featured Projects</h2>
+                    <div class="projects-grid-new">
+                        <!-- Maroon Chat -->
+                        <div class="project-card-new">
+                            <div class="project-card-header">
+                                <div class="project-icon">
+                                    <i class="bi bi-chat-dots-fill"></i>
+                                </div>
+                                <span class="project-status">Completed</span>
+                            </div>
+                            <h3>Maroon Chat (UP Diliman Chatbot)</h3>
+                            <p class="project-desc">Developed an NLP-powered chatbot using LLaMA, PEFT techniques, and Reinforcement Learning (DPO) for intelligent conversational assistance at UP Diliman.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">LLaMA</span>
+                                <span class="tech-badge">PEFT</span>
+                                <span class="tech-badge">DPO</span>
+                                <span class="tech-badge">Gradio</span>
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="project-card">
-                        <h3>Project 3</h3>
-                        <p>Description of your third project. This could be a machine learning model or web development project.</p>
-                        <div class="project-links">
-                            <a href="#" class="btn btn-primary">View Project</a>
-                            <a href="#" class="btn btn-secondary">GitHub</a>
+
+                        <!-- Colonoscopy Polyp Detection -->
+                        <div class="project-card-new">
+                            <div class="project-card-header">
+                                <div class="project-icon">
+                                    <i class="bi bi-search"></i>
+                                </div>
+                                <span class="project-status award"><i class="bi bi-award-fill"></i> Award Winner</span>
+                            </div>
+                            <h3>Colonoscopy-Based Polyp Detection</h3>
+                            <p class="project-desc">Applied YOLOv8 object detection to identify adenoma-carcinoma sequence polyps, enhancing early detection in colonoscopy images. National Award for Best Research Presentation at 18th PNHRS.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">YOLOv8</span>
+                                <span class="tech-badge">Deep Learning</span>
+                                <span class="tech-badge">Medical Imaging</span>
+                            </div>
+                        </div>
+
+                        <!-- Electric Load Forecasting -->
+                        <div class="project-card-new">
+                            <div class="project-card-header">
+                                <div class="project-icon">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                </div>
+                                <span class="project-status">Completed</span>
+                            </div>
+                            <h3>Provincial Electric Load Forecasting</h3>
+                            <p class="project-desc">Developed a multivariate deep learning approach for provincial electric load forecasting, achieving 20% higher accuracy compared to existing traditional methods.</p>
+                            <div class="project-tech-stack">
+                                <span class="tech-badge">Deep Learning</span>
+                                <span class="tech-badge">Time Series</span>
+                                <span class="tech-badge">Forecasting</span>
+                            </div>
                         </div>
                     </div>
                 </div>
